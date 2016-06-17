@@ -28,6 +28,7 @@ go to this url will generate and save access token and refresh key in db
 then  run "rake check_emails"  this will feach data from gmail api and console 
 
 
+whenever --update-crontab
 
 
 
@@ -38,9 +39,16 @@ Authorize your Rails app with the Google API
 Refresh the Google API access
 Get Emails from the GMail API   'rake check_messages' 
 
-
-url for authentication 
-
-
 Created a crone job
+
+TODO#
+
+Need to store data to DB
+create view to display 
+make ui for authenticate 
+
+implement  https://developers.google.com/gmail/api/guides/push
+
+
+
 
