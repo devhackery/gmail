@@ -1,0 +1,34 @@
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version :ruby 2.2
+
+* System dependencies
+
+* Configuration
+
+	ENV['CLIENT_ID']
+	ENV['CLIENT_SECRET']
+
+
+
+
+
+
+* Deployment instructions
+
+
+Authorize your Rails app with the Google API
+Refresh the Google API access
+Get Emails from the GMail API   'rake check_messages' 
+
+
+url for authentication http://2485aebe.ngrok.io/auth/google_oauth2
+
+
+Created a crone job
+
