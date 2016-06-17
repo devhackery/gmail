@@ -26,7 +26,7 @@ Gmail::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
-  ENV['CLIENT_ID']='982555712607-bi02cucm3fh04sko2radnj4v14n7kn2u.apps.googleusercontent.com'
-  ENV['CLIENT_SECRET']='4R45OiXZydBzV3J5rctZFlyl'
+  ENV['CLIENT_ID']='YOUR CLIENT_ID'
+  ENV['CLIENT_SECRET']='YOUR CLIENT_SECRET'
 
 end

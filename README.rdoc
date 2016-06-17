@@ -11,9 +11,21 @@ Things you may want to cover:
 
 * Configuration
 
+google_oauth2pen a tunnel to your development machine using ngrok
+
+
+make application in google console with callback url
+
+put client id and client secret id 
+
 	ENV['CLIENT_ID']
 	ENV['CLIENT_SECRET']
 
+eg http://2485aebe.ngrok.io/auth/google_oauth2
+
+go to this url will generate and save access token and refresh key in db 
+
+then  run "rake check_emails"  this will feach data from gmail api and console 
 
 
 
@@ -27,7 +39,7 @@ Refresh the Google API access
 Get Emails from the GMail API   'rake check_messages' 
 
 
-url for authentication http://2485aebe.ngrok.io/auth/google_oauth2
+url for authentication 
 
 
 Created a crone job
