@@ -25,3 +25,49 @@ lands in the inbox.
 In case of emails that were missed, build a feature that creates/updates a lead on a button click.
 
 
+
+*************************************************
+ 
+* Ruby version :ruby 2.2
+
+* Configuration
+
+google_oauth2pen a tunnel to your development machine using ngrok
+
+
+make application in google console with callback url
+
+put client id and client secret id 
+
+    ENV['CLIENT_ID']
+    ENV['CLIENT_SECRET']
+
+eg http://2485aebe.ngrok.io/auth/google_oauth2
+
+go to this url will generate and save access token and refresh key in db 
+
+then  run "rake check_emails"  this will feach data from gmail api and console 
+
+
+whenever --update-crontab
+
+
+
+* Deployment instructions
+
+
+Authorize your Rails app with the Google API
+Refresh the Google API access
+Get Emails from the GMail API   'rake check_messages' 
+
+Created a crone job
+
+TODO#
+
+Need to store data to DB
+create view to display 
+make ui for authenticate 
+
+implement  https://developers.google.com/gmail/api/guides/push
+
+
